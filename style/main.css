@@ -121,11 +121,9 @@
 
 .hero {
     display: flex;
-    align-items: center;
     background-color: #FEFAF5;
     height: 50vh;
-    z-index: 900;
-    padding-left: 50px;
+    margin-top: 60px;
 }
 
 /* .hero__content {
@@ -133,49 +131,54 @@
     display: flex;
 } */
 
-.hero-slogan {
-    color: #335576;
+.hero-copy {
     width: 50%;
+    align-items: left;
     justify-content:center;
     flex-direction: column;
     /* position:relative; */
     /* left: 30px; */
     /* height: 100%; */
-    /* display: flex; */
+    display: flex;
+    padding-left: 50px;
 }
 
-.slogan__title {
+.hero-copy__title {
     color: #335576;
-    font-size: 28px;
+    font-size: 45px;
     line-height: 1.2;
     /* display: inline-block; */
 }
 
-.slogan__text {
+.hero-copy__text {
     color: #5C6D82;
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    width: 70%;
 }
 
-.slogan__btn {
-    display: inline-block;
+.hero-copy__btn {
     background-color: #DB7A4E;
     color: #fff;
     padding: 10px 40px;
     border-radius: 25px;
     margin-top: 20px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    max-width: 120px;
 }
 
 .hero-image {
     width: 50%;
     justify-content: center;
     flex-direction: column;
+    align-content: space-evenly;
     /* position: absolute; */
-    right: 50px;
+    /* right: 50px; */
 }
 
-.hero__image img {
-    max-width: 100%;
-    height: auto;
+.hero-image__earth-graphic {
+    max-width: 500px;
+    /* padding: 0px 0px 50px 50px; */
 }
