@@ -1,28 +1,109 @@
-.navigation {
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    color: #335576;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    background-color: #FFFFFF;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    right: 0;
+    max-width: 1200px;
+    padding: 30px 25px;
+    z-index: 1000; /* Ensure it's above other content */
 }
 
-.logo {
+.header__logo {
+    color: #335576;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+}
+
+.header__nav {
+    margin-top: 0;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    min-width: auto;
+}
+
+.nav__item {
+    margin-right: 30px;
+}
+
+.nav__link {
+    color: #000;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav__link--active {
+    text-decoration: underline #DB7A4E 4px;
+    text-underline-offset: 12px;
+}
+
+/* this is the css for the orange underline below the active nav link. NOTE it probably does not belong here */
+
+.logo-container {
+    position: absolute;
+    left: 50px;
+}
+
+.nav-container {
+    position: absolute;
+    right: 50px;
+}
+
+
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    color: #335576;
+    position: fixed;
+    max-width: 1200px;
+}
+
+.header__logo {
     color: #335576;
     font-size: 24px;
-}
-
-.nav-links ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    font-weight: bold;
     display: flex;
 }
 
-.nav-links li {
+.header__nav {
+    margin-top: 0;
+
+}
+
+.nav__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 10px;
+}
+
+.nav__link {
+    color: #335576;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav__link--active {
+    text-decoration: underline #DB7A4E;
+} */
+
+
+/* .nav-links li {
     margin-right: 20px;
 }
 
@@ -35,4 +116,56 @@
 .nav-links .active a {
     text-decoration: underline;
     color: #DB7A4E;
+} */
+
+.hero {
+    display: flex;
+    align-items: center;
+    
+    background-color: #FEFAF5;
+    height: 50vh;
+    padding: 0 20px;
+}
+
+.hero__content {
+    width: 100%;
+    display: flex;
+}
+
+.hero__slogan {
+    color: #335576;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero__slogan-title {
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.hero__slogan-description {
+    color: #5C6D82;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.hero__btn {
+    display: inline-block;
+    background-color: #DB7A4E;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.hero__image {
+    width: 50%;
+    text-align: center;
+}
+
+.hero__image img {
+    max-width: 100%;
+    height: auto;
 }
