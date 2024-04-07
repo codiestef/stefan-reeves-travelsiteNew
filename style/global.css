@@ -2,3 +2,59 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
+  .footer {
+    background-color: #FEFAF5;
+    padding: 20px 250px 20px 250px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-section {
+    width: 50%;
+}
+.footer-section__contact {
+    width: 25%;
+}
+
+.footer-section__social {
+    width: 20%;
+}
+
+.hours-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.footer h3 {
+    color: #335576;
+    text-align: left;
+}
+
+.footer-subtitle {
+    color: #DB7A4E;
+    font-size: 8px;
+    text-align: left;
+}
+
+.footer-text {
+    font-size: 10px;
+    text-align: left;
+}
+
+.footer-icons {
+    text-align: left;
+    max-height: 30px;
+    width: auto;
+    margin: 3px;
+    align-items: start;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto; */
+}
+.icons-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 150px;
+}
