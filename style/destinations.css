@@ -23,6 +23,7 @@ background: url(../assets/Images/hawaii.jpg);
     padding: 50px;
     position: relative;
     min-height: 600px;
+    max-width: 1280px;
   }
   
   .hero-title {
