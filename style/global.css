@@ -2,7 +2,66 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
-  .footer {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    color: #335576;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 1200px;
+    padding: 25px 25px;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.header__logo {
+    color: #335576;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+}
+
+.header__nav {
+    margin-top: 0;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    min-width: auto;
+}
+
+.nav__item {
+    margin-right: 30px;
+}
+
+.nav__link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav__link--active {
+    text-decoration: underline #DB7A4E 4px;
+    text-underline-offset: 12px;
+}
+
+.logo-container {
+    position: absolute;
+    left: 50px;
+}
+
+.nav-container {
+    position: fixed;
+    right: 50px;
+    max-width: 600px;
+}
+
+.footer {
     background-color: #FEFAF5;
     padding: 20px 250px 20px 250px;
     display: flex;
