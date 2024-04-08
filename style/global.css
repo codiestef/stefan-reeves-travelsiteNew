@@ -12,7 +12,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    max-width: 1200px;
+    max-width: 1280px;
     padding: 25px 25px;
     z-index: 1000; /* Ensure it's above other content */
 }
@@ -70,7 +70,7 @@ body {
 }
 
 .footer-section {
-    width: 50%;
+    width: 55%;
 }
 .footer-section__contact {
     width: 25%;
@@ -93,12 +93,12 @@ body {
 
 .footer-subtitle {
     color: #DB7A4E;
-    font-size: 8px;
+    font-size: 10px;
     text-align: left;
 }
 
 .footer-text {
-    font-size: 10px;
+    font-size: 12px;
     text-align: left;
 }
 
